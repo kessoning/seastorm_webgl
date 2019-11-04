@@ -8,7 +8,7 @@ import { Mesh, PlaneGeometry, MeshBasicMaterial, NormalBlending } from '../../li
 
 const Background = function () {
 
-    this.geometry = new Mesh(new PlaneGeometry(window.innerWidth, window.innerHeight, 0), new MeshBasicMaterial({
+    this.geometry = new Mesh(new PlaneGeometry(window.innerWidth * 2, window.innerHeight * 2, 0), new MeshBasicMaterial({
         color: 0x000000,
         blending: NormalBlending,
         transparent: true,
