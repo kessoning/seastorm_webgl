@@ -37,7 +37,7 @@ import { ParticleSystem } from './modules/ParticleSystem.js';
 const particlesystem = new ParticleSystem(WIDTH, window.innerWidth, window.innerHeight);
 
 // Initialize the flow field
-let resolution = is_mobile ? 10 : 20;   // Resolution of the flowfield
+let resolution = is_mobile ? 5 : 10;   // Resolution of the flowfield
 const flowfield = new FlowField(resolution, window.innerWidth, window.innerHeight);
 
 // Initialize the force and speed texture
